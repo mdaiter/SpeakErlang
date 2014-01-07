@@ -7,7 +7,7 @@ Two basic steps:
 ```shell
 rebar compile
 cd c_src; make
-``
+
 If there are library linker issues while making the C files, I soft linked my nif header file to /usr/local/include/erlang/erl_nif.h, along with the entire directory of erlang headers.
 
 ##Basic Usage
